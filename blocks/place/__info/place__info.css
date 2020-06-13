@@ -1,0 +1,11 @@
+.place__info {
+    display: flex;
+    margin-top: 48px;
+}
+
+@media (max-width: 720px) {
+    .place__info {
+        display: block;
+        flex-direction: column;
+    }
+}
