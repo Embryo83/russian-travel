@@ -7,16 +7,24 @@
     text-align: left;
     margin-top: 4px;
     margin-bottom: 0;
+    margin-left: 16px;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     .lead__caption {
         margin-left: 24px;
     }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 1024px) {
     .lead__caption {
-        margin-left: 16px;
+        /* margin-left: 48px; */
+        margin-left: 8vw;
+    }
+}
+
+@media (min-width: 1240px) {
+    .lead__caption {
+        margin-left: 0;
     }
 }

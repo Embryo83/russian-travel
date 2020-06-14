@@ -1,11 +1,12 @@
 .place__info {
-    display: flex;
+    display: block;
+    flex-direction: column;
     margin-top: 48px;
 }
 
-@media (max-width: 720px) {
+@media screen and (min-width: 720px) {
     .place__info {
-        display: block;
-        flex-direction: column;
+        display: flex;
+        flex-direction: row;
     }
 }

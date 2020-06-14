@@ -9,14 +9,14 @@
 @import url("./__text/place__text.css");
 
 .place {
-    margin-bottom: 80px;
+    margin-bottom: 48px;
 }
 
 .place:last-child {
-    margin-bottom: 92px;
+    margin-bottom: 64px;
 }
 
-@media (max-width: 768px) {
+@media screen and (min-width: 768px) {
     .place {
         margin-bottom: 72px;
     }
@@ -26,12 +26,12 @@
     }
 }
 
-@media (max-width: 320px) {
+@media screen and (min-width: 1024px) {
     .place {
-        margin-bottom: 48px;
+        margin-bottom: 80px;
     }
 
     .place:last-child {
-        margin-bottom: 64px;
+        margin-bottom: 92px;
     }
 }

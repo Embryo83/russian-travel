@@ -5,33 +5,18 @@
 .cover {
     display: flex;
     flex-direction: column;
-    margin: 0 48px;
     background-image: url('../../images/cover-trains.png');
     background-position: center;
     background-size: cover;
     position: relative;
     z-index: 0;
+    width: 100%;
 }
 
-@media (max-width: 1024px) {
+@media screen and (min-width: 1240px) {
     .cover {
-        margin: 0;
-        max-width: 1024px;
-        max-height: 640px;
-    }
-}
-
-@media (max-width: 768px) {
-    .cover {
-        max-width: 768px;
-        max-height: 480px;
-    }
-}
-
-@media (max-width: 320px) {
-    .cover {
-        max-width: 320px;
-        max-height: 200px;
+        width: 1184px;
+        margin: 0 auto;
     }
 }
 
