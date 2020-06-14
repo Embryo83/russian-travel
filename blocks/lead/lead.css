@@ -20,7 +20,7 @@
 
 @media screen and (min-width: 1024px){
     .lead {
-        padding: 24px calc(25% - 984px) 46px;
+        padding: 24px 48px 46px;
     }
 }
 

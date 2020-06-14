@@ -1,3 +1,27 @@
 .place__text {
     flex-direction: column;
 }
+
+@media screen and (min-width: 720px) {
+    .place__text {
+      min-width: 340px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+      .place__text {
+        max-width: 352px;
+      }
+  }
+  
+  @media screen and (min-width: 1024px) {
+      .place__text {
+        min-width: 456px;
+      }
+  }
+  
+  @media screen and (min-width: 1240px) {
+    .place__text {
+      max-width: 484px;
+    }
+  }

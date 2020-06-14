@@ -9,6 +9,8 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 64px 16px 24px;
+    margin: 0 auto;
+    min-width: 288px;
 
 }
 
