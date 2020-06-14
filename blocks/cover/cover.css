@@ -34,8 +34,7 @@ content: '';
   z-index: -1;
 }
 
-.cover:hover {
-    background-color: #2a2c2f;
-    opacity: 0.3;
+.cover:hover::before {
+    background-color: rgba(41, 41, 41, 0.8);
 }
 

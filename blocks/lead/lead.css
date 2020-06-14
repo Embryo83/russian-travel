@@ -1,5 +1,6 @@
 @import url("./__title/lead__title.css");
 @import url("./__subtitle/lead__subtitle.css");
+@import url("./__image-contaner/lead__image-container.css");
 @import url("./__image/lead__image.css");
 @import url("./__caption/lead__caption.css");
 
@@ -11,7 +12,7 @@
    box-sizing: border-box;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
     .lead {
         padding: 24px 0 44px;
     }
