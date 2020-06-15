@@ -1,4 +1,14 @@
 .place__header {
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+    .place__header {
+        display: grid;
+        grid-template-columns: minmax(340px, 460px) minmax(352px, 484px);
+        gap: 40px;
+        align-items: end;
+    }
 }

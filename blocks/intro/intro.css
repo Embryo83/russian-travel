@@ -14,18 +14,18 @@
 
 @media (min-width: 768px) {
     .intro {
-        padding: 44px 24px;
+        padding: 44px 0 44px 24px;
     }
 }
 
 @media (min-width: 1024px) {
     .intro {
-        padding: 46px 0 92px 48px;
+        padding: 46px 0 46px 48px;
     }
 }
 
 @media (min-width: 1240px) {
     .intro {
-        padding: 46px 0 92px 148px;
+        padding: 46px 0 46px 148px;
     }
 }

@@ -1,12 +1,14 @@
 .place__info {
     display: block;
     flex-direction: column;
-    margin-top: 48px;
+    margin-top: 32px;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 768px) {
     .place__info {
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: minmax(340px, 460px) minmax(352px, 486px);
+        gap: 40px;
+        margin-top: 48px;
     }
 }

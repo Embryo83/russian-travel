@@ -9,29 +9,34 @@
 @import url("./__text/place__text.css");
 
 .place {
-    margin-bottom: 48px;
+    margin: 0 auto;
+    padding-bottom: 48px;
+    display: flex;
+    flex-direction: column;
 }
 
 .place:last-child {
-    margin-bottom: 64px;
+    padding-bottom: 64px;
 }
 
 @media screen and (min-width: 768px) {
     .place {
-        margin-bottom: 72px;
+        padding-bottom: 72px;
+        min-width: 720px;
+        max-width: 984px;
     }
 
     .place:last-child {
-        margin-bottom: 88px;
+        padding-bottom: 88px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .place {
-        margin-bottom: 80px;
+        padding-bottom: 80px;
     }
 
     .place:last-child {
-        margin-bottom: 92px;
+        padding-bottom: 92px;
     }
 }
